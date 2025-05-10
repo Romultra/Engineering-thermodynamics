@@ -27,6 +27,42 @@ def get_apdx_1(gas, request, use_chem_formula=False):
         return data[request][data['Chemical formula'] == gas].values[0]
     else:
         return data[request][data['Gas'] == gas].values[0]
+    
+def get_apdx_4(gas, relative_to, input, request):
+    """
+    Retrieves the APDX 4 data for a given gas and request type.
+    Appendix 4 contains the specific heat data for various gases:
+    - T: Temperature (K)
+    - cp: Specific heat at constant pressure (kJ/(kg*K))
+    - cv: Specific heat at constant volume (kJ/(kg*K))
+    - gamma: Specific heat ratio (dimensionless)
+
+    the available gases are:
+    Air, CO2, CO, H2, N2, O2
+
+    Parameters:
+    gas (str): The type of gas from the list above.
+    relative_to (str): The variable to interpolate against ('T', 'cp').
+    input (array-like or number): The input values for interpolation.
+    request (str): The variable to retrieve ('cp', 'cv', or 'gamma').
+
+    Returns:
+    array: The interpolated output values.
+    """
+    data = pd.read_csv('Appendix-data/4-Specific-Heats-of-Gases.csv', header=1)
+    
+    data = data[data['Gas'] == gas]  # Filter for the selected gas
+
+    # Convert columns to numeric
+    data[relative_to] = pd.to_numeric(data[relative_to])
+    data[request] = pd.to_numeric(data[request])
+
+    if type(input) != list or type(input) != np.ndarray:
+        input = np.array([input])
+    
+    output_value = np.interp(input, data[relative_to].to_numpy(), data[request].to_numpy())
+    return output_value[0] if np.ndim(output_value)==1 else output_value
+
 
 def get_apdx_7(relative_to, input, request):
     """
