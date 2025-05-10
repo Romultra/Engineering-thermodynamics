@@ -94,6 +94,7 @@ def get_cycle_units(cycle):
         system_units = {
             'r': '-',
             'R': 'kJ/(kg·K)',
+            'cv': 'kJ/(kg·K)',
             'gamma': '-',
             'Qh': 'kJ/kg',
             'Qc': 'kJ/kg',
@@ -103,7 +104,12 @@ def get_cycle_units(cycle):
             'n': '-',
         }
         state_units = {
-            
+            'T': 'K',  # K
+            'P': 'kPa',  # kPa
+            'V': 'm³/kg',  # m³/kg
+            'S': 'kJ/kg·K',  # kJ/kg·K
+            'h': 'kJ/kg',  # kJ/kg
+            'u': 'kJ/kg'  # kJ/kg
         }
     else:
         raise ValueError("Invalid cycle type. Choose from ['Rankine', 'Diesel', 'Otto'].")
