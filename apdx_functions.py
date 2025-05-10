@@ -57,9 +57,15 @@ def get_apdx_7(relative_to, input, request):
         input = np.array([input])
     
     output_value = np.interp(input, data[relative_to].to_numpy(), data[request].to_numpy())
-    return output_value
+    return output_value[0] if np.ndim(output_value)==1 else output_value
 
-def get_apdx_8(table_base, relative_to, input, request):
+# Useful lamda macros
+def h_air(T):
+    return get_apdx_7('T', T, 'h')
+def u_air(T):
+    return get_apdx_7('T', T, 'u')
+
+def get_apdx_8ab(table_base, relative_to, input, request):
     """
     Appendix 8: Properties of saturated Water.
 
@@ -92,6 +98,11 @@ def get_apdx_8(table_base, relative_to, input, request):
         data = pd.read_csv('Appendix-data/8a-Saturated-Water-Temperature.csv', header=1)
     else:
         raise ValueError("Invalid table_base. Choose 'Pressure' or 'Temperature'.")
+    
+    if relative_to == 'T':
+        relative_to = 'Tsat'
+    if request == 'T':
+        request = 'Tsat'
 
     data[relative_to] = pd.to_numeric(data[relative_to])  # Convert to numeric
     data[request] = pd.to_numeric(data[request])  # Convert to numeric
@@ -100,13 +111,45 @@ def get_apdx_8(table_base, relative_to, input, request):
         input = np.array([input])
 
     output_value = np.interp(input, data[relative_to].to_numpy(), data[request].to_numpy())
-    return output_value
+    return output_value[0] if np.ndim(output_value)==1 else output_value
 
-# Useful lamda macros
-def h_air(T):
-    return get_apdx_7('T', T, 'h')[0]
-def u_air(T):
-    return get_apdx_7('T', T, 'u')[0]
+def get_apdx_8c(relative_to: tuple, input: tuple, request: str):
+    """
+    Appendix 8c: Properties of superheated Water.
+
+    Retrieves and interpolates the APDX data for a given relative_to, input, and request.
+    This appendix is based on pressure and temperature.
+    Appendix 8c includes these properties for superheated Water:
+    - T: Saturation temperature (°C)
+    - P: Pressure (MPa)
+    - v: Specific volume (m³/kg)
+    - u: Internal energy (kJ/kg)
+    - h: Enthalpy (kJ/kg)
+    - s: Entropy (kJ/(kg*K))
+
+    Parameters:
+    relative_to (tuple): The variables to interpolate against ('P', 'T').
+    input (tuple): The input values for interpolation.
+    request (str): The variable to retrieve ('s').
+
+    Returns:
+    array: The interpolated output values.
+    """
+    # Load the new uploaded CSV
+    file_path_new = 'Appendix-data/8c-Superheated-Water.csv'
+    data = pd.read_csv(file_path_new, header=1)
+
+    # Convert Pressure and Temperature columns to numeric
+    data[relative_to[0]] = pd.to_numeric(data[relative_to[0]], errors='coerce')
+    data[relative_to[1]] = pd.to_numeric(data[relative_to[1]], errors='coerce')
+    data[request] = pd.to_numeric(data[request], errors='coerce')
+
+    # Prepare points and values
+    points = np.column_stack((data[relative_to[0]], data[relative_to[1]]))
+
+    output_value = griddata(points, data[request], (input[0], input[1]), method='linear')
+
+    return np.float64(output_value) if np.ndim(output_value)==0 else output_value[0] if np.ndim(output_value)==1 else output_value
 
 def get_apdx_9ab(table_base, relative_to, input, request):
     """
@@ -136,11 +179,16 @@ def get_apdx_9ab(table_base, relative_to, input, request):
     array: The interpolated output values.
     """
     if table_base == 'Pressure':
-        data = pd.read_csv('Data/9b-Saturated-R134a-Pressure.csv', header=1)
+        data = pd.read_csv('Appendix-data/9b-Saturated-R134a-Pressure.csv', header=1)
     elif table_base == 'Temperature':
-        data = pd.read_csv('Data/9a-Saturated-R134a-Temperature.csv', header=1)
+        data = pd.read_csv('Appendix-data/9a-Saturated-R134a-Temperature.csv', header=1)
     else:
         raise ValueError("Invalid table_base. Choose 'Pressure' or 'Temperature'.")
+    
+    if relative_to == 'T':
+        relative_to = 'Tsat'
+    if request == 'T':
+        request = 'Tsat'
 
     data[relative_to] = pd.to_numeric(data[relative_to])  # Convert to numeric
     data[request] = pd.to_numeric(data[request])  # Convert to numeric
@@ -149,7 +197,7 @@ def get_apdx_9ab(table_base, relative_to, input, request):
         input = np.array([input])
     
     output_value = np.interp(input, data[relative_to].to_numpy(), data[request].to_numpy())
-    return output_value
+    return output_value[0] if np.ndim(output_value)==1 else output_value
 
 def get_apdx_9c(relative_to: tuple, input: tuple, request: str):
     """
@@ -174,7 +222,7 @@ def get_apdx_9c(relative_to: tuple, input: tuple, request: str):
     array: The interpolated output values.
     """
     # Load the new uploaded CSV
-    file_path_new = 'Data/9c-Superheated-R134a.csv'
+    file_path_new = 'Appendix-data/9c-Superheated-R134a.csv'
     data = pd.read_csv(file_path_new, header=1)
 
     # Convert Pressure and Temperature columns to numeric
@@ -186,4 +234,5 @@ def get_apdx_9c(relative_to: tuple, input: tuple, request: str):
     points = np.column_stack((data[relative_to[0]], data[relative_to[1]]))
 
     output_value = griddata(points, data[request], (input[0], input[1]), method='linear')
-    return output_value
+
+    return np.float64(output_value) if np.ndim(output_value)==0 else output_value[0] if np.ndim(output_value)==1 else output_value

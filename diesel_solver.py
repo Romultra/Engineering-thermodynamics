@@ -217,11 +217,11 @@ def step_1(vars):
 
         # 3) If we know internal energy u1 => invert via table or ideal‐gas formula
         if (np.isnan(T1) and not np.isnan(u1)):
-            T1 = get_apdx_7('u', u1, 'T')[0]
+            T1 = get_apdx_7('u', u1, 'T')
 
         # 4) If we know enthalpy h1 => invert via table or formula
         if (np.isnan(T1) and not np.isnan(h1)):
-            T1 = get_apdx_7('h', h1, 'T')[0]
+            T1 = get_apdx_7('h', h1, 'T')
 
         #  5) If we know s1, P1 => T1 from s,P
         # if (np.isnan(T1) and not np.isnan(S1) and not np.isnan(P1)):
@@ -261,7 +261,7 @@ def step_1(vars):
     if np.isnan(h1):
         # 1) If T1 is known => h1 = h(T1)
         if (not np.isnan(T1)):
-            h1 = get_apdx_7('T', T1, 'h')[0]
+            h1 = get_apdx_7('T', T1, 'h')
         vars[1]['h1'] = h1
 
     # ----------------------------------------------------
@@ -270,7 +270,7 @@ def step_1(vars):
     if np.isnan(u1):
         # 1) If T1 is known => u1 = u(T1)
         if (not np.isnan(T1)):
-            u1 = get_apdx_7('T', T1, 'u')[0]
+            u1 = get_apdx_7('T', T1, 'u')
         vars[1]['u1'] = u1
     
     return vars
@@ -353,11 +353,11 @@ def step_2(vars):
 
         # 3) If we know internal energy u2 => invert via table
         elif not np.isnan(u2):
-            T2 = get_apdx_7('u', u2, 'T')[0]
+            T2 = get_apdx_7('u', u2, 'T')
 
         # 4) If we know enthalpy h2 => invert via table
         elif not np.isnan(h2):
-            T2 = get_apdx_7('h', h2, 'T')[0]
+            T2 = get_apdx_7('h', h2, 'T')
 
         vars[2]['T2'] = T2
 
@@ -396,7 +396,7 @@ def step_2(vars):
             # Example using APDX 7 with T for interpolation:
             # Then if you have P2 as well, you might do a more advanced approach. 
             # For demonstration, we'll just get s from T2 alone:
-            S2 = get_apdx_7('T', T2, 's0')[0]  
+            S2 = get_apdx_7('T', T2, 's0')  
             # In many ideal-gas tables, 's0' is measured from a reference pressure, 
             # so you might need s2 = s0(T2) + R ln(Pref/P2). 
             # Adjust as needed for your setup.
@@ -409,7 +409,7 @@ def step_2(vars):
     if np.isnan(h2):
         # 1) If T2 known => h2 = get_apdx_7('T', T2, 'h')
         if not np.isnan(T2):
-            h2 = get_apdx_7('T', T2, 'h')[0]
+            h2 = get_apdx_7('T', T2, 'h')
 
         vars[2]['h2'] = h2
 
@@ -419,7 +419,7 @@ def step_2(vars):
     if np.isnan(u2):
         # 1) If T2 known => u2 = get_apdx_7('T', T2, 'u')
         if not np.isnan(T2):
-            u2 = get_apdx_7('T', T2, 'u')[0]
+            u2 = get_apdx_7('T', T2, 'u')
 
         vars[2]['u2'] = u2
 
@@ -510,11 +510,11 @@ def step_3(vars):
 
         # 3) If we have u3 => invert via table
         if (np.isnan(T3) and not np.isnan(u3)):
-            T3 = get_apdx_7('u', u3, 'T')[0]
+            T3 = get_apdx_7('u', u3, 'T')
 
         # 4) If we have h3 => invert via table
         if (np.isnan(T3) and not np.isnan(h3)):
-            T3 = get_apdx_7('h', h3, 'T')[0]
+            T3 = get_apdx_7('h', h3, 'T')
 
         vars[3]['T3'] = T3
 
@@ -559,7 +559,7 @@ def step_3(vars):
             # Example usage with APDX 7. Many tables store s0 for an arbitrary reference pressure:
             # S3 = s0(T3) + R ln(P_ref / P3) or similar. 
             # For illustration, we’ll just do:
-            S3 = get_apdx_7('T', T3, 's0')[0]  
+            S3 = get_apdx_7('T', T3, 's0')  
             # (You might adjust for actual P3 if your table requires it.)
         """
         vars[3]['S3'] = S3
@@ -570,7 +570,7 @@ def step_3(vars):
     if np.isnan(h3):
         # 1) If T3 is known => h3 = get_apdx_7('T', T3, 'h')
         if not np.isnan(T3):
-            h3 = get_apdx_7('T', T3, 'h')[0]
+            h3 = get_apdx_7('T', T3, 'h')
 
         vars[3]['h3'] = h3
 
@@ -580,7 +580,7 @@ def step_3(vars):
     if np.isnan(u3):
         # 1) If T3 is known => u3 = get_apdx_7('T', T3, 'u')
         if not np.isnan(T3):
-            u3 = get_apdx_7('T', T3, 'u')[0]
+            u3 = get_apdx_7('T', T3, 'u')
 
         vars[3]['u3'] = u3
 
@@ -673,11 +673,11 @@ def step_4(vars):
 
         # 3) If we have u4 => T4 = invert via table, get_apdx_7('u', u4, 'T')
         if (np.isnan(T4) and not np.isnan(u4)):
-            T4 = get_apdx_7('u', u4, 'T')[0]
+            T4 = get_apdx_7('u', u4, 'T')
 
         # 4) If we have h4 => T4 = invert via table, get_apdx_7('h', h4, 'T')
         if (np.isnan(T4) and not np.isnan(h4)):
-            T4 = get_apdx_7('h', h4, 'T')[0]
+            T4 = get_apdx_7('h', h4, 'T')
 
         vars[4]['T4'] = T4
 
@@ -722,7 +722,7 @@ def step_4(vars):
             not np.isnan(P4)):
             # For an ideal-gas table, we might do s0(T4) + R ln(Pref/P4), etc.
             # For demonstration, we just call get_apdx_7('T', T4, 's0'):
-            S4 = get_apdx_7('T', T4, 's0')[0]
+            S4 = get_apdx_7('T', T4, 's0')
         """
         vars[4]['S4'] = S4
 
@@ -732,7 +732,7 @@ def step_4(vars):
     if np.isnan(h4):
         # 1) If T4 known => h4 = h(T4)
         if not np.isnan(T4):
-            h4 = get_apdx_7('T', T4, 'h')[0]
+            h4 = get_apdx_7('T', T4, 'h')
 
         vars[4]['h4'] = h4
 
@@ -742,7 +742,7 @@ def step_4(vars):
     if np.isnan(u4):
         # 1) If T4 known => u4 = u(T4)
         if not np.isnan(T4):
-            u4 = get_apdx_7('T', T4, 'u')[0]
+            u4 = get_apdx_7('T', T4, 'u')
 
         vars[4]['u4'] = u4
 
