@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from scipy.interpolate import griddata
+from importlib.resources import files
 
 def get_apdx_1(gas, request, use_chem_formula=False):
     """
@@ -22,7 +23,7 @@ def get_apdx_1(gas, request, use_chem_formula=False):
     Returns:
     float: The requested property of the gas.
     """
-    data = pd.read_csv('Appendix-data/1-Properties-of-gases.csv', header=1)
+    data = pd.read_csv('./thermo/Appendix-data/1-Properties-of-gases.csv', header=1)
     if use_chem_formula:
         return data[request][data['Chemical formula'] == gas].values[0]
     else:
@@ -49,7 +50,7 @@ def get_apdx_4(gas, relative_to, input, request):
     Returns:
     array: The interpolated output values.
     """
-    data = pd.read_csv('Appendix-data/4-Specific-Heats-of-Gases.csv', header=1)
+    data = pd.read_csv('./thermo/Appendix-data/4-Specific-Heats-of-Gases.csv', header=1)
     
     data = data[data['Gas'] == gas]  # Filter for the selected gas
 
@@ -82,7 +83,7 @@ def get_apdx_7(relative_to, input, request):
     Returns:
     array: The interpolated output values.
     """
-    data = pd.read_csv('Appendix-data/7-Ideal-Gas-Tables-for-Air.csv', header=1)
+    data = pd.read_csv('./thermo/Appendix-data/7-Ideal-Gas-Tables-for-Air.csv', header=1)
     
     # Convert columns to numeric
     data[relative_to] = pd.to_numeric(data[relative_to])
@@ -128,9 +129,9 @@ def get_apdx_8ab(table_base, relative_to, input, request):
     array: The interpolated output values.
     """
     if table_base == 'Pressure':
-        data = pd.read_csv('Appendix-data/8b-Saturated-Water-Pressure.csv', header=1)
+        data = pd.read_csv('./thermo/Appendix-data/8b-Saturated-Water-Pressure.csv', header=1)
     elif table_base == 'Temperature':
-        data = pd.read_csv('Appendix-data/8a-Saturated-Water-Temperature.csv', header=1)
+        data = pd.read_csv('./thermo/Appendix-data/8a-Saturated-Water-Temperature.csv', header=1)
     else:
         raise ValueError("Invalid table_base. Choose 'Pressure' or 'Temperature'.")
     
@@ -171,7 +172,7 @@ def get_apdx_8c(relative_to: tuple, input: tuple, request: str):
     array: The interpolated output values.
     """
     # Load the new uploaded CSV
-    file_path_new = 'Appendix-data/8c-Superheated-Water.csv'
+    file_path_new = './thermo/Appendix-data/8c-Superheated-Water.csv'
     data = pd.read_csv(file_path_new, header=1)
 
     # Convert Pressure and Temperature columns to numeric
@@ -214,9 +215,9 @@ def get_apdx_9ab(table_base, relative_to, input, request):
     array: The interpolated output values.
     """
     if table_base == 'Pressure':
-        data = pd.read_csv('Appendix-data/9b-Saturated-R134a-Pressure.csv', header=1)
+        data = pd.read_csv('./thermo/Appendix-data/9b-Saturated-R134a-Pressure.csv', header=1)
     elif table_base == 'Temperature':
-        data = pd.read_csv('Appendix-data/9a-Saturated-R134a-Temperature.csv', header=1)
+        data = pd.read_csv('./thermo/Appendix-data/9a-Saturated-R134a-Temperature.csv', header=1)
     else:
         raise ValueError("Invalid table_base. Choose 'Pressure' or 'Temperature'.")
     
@@ -257,7 +258,7 @@ def get_apdx_9c(relative_to: tuple, input: tuple, request: str):
     array: The interpolated output values.
     """
     # Load the new uploaded CSV
-    file_path_new = 'Appendix-data/9c-Superheated-R134a.csv'
+    file_path_new = './thermo/Appendix-data/9c-Superheated-R134a.csv'
     data = pd.read_csv(file_path_new, header=1)
 
     # Convert Pressure and Temperature columns to numeric
