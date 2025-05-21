@@ -63,7 +63,6 @@ def get_apdx_4(gas, relative_to, input, request):
     output_value = np.interp(input, data[relative_to].to_numpy(), data[request].to_numpy())
     return output_value[0] if np.ndim(output_value)==1 else output_value
 
-
 def get_apdx_7(relative_to, input, request):
     """
     Retrieves the APDX 7 data for a given relative_to, input, and request.

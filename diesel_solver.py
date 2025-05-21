@@ -1,5 +1,5 @@
 import numpy as np
-from apdx_functions import get_apdx_7, get_apdx_1
+from thermo import get_apdx_7, get_apdx_1
 
 # Diesel cycle solver
 def define_empty_variables():

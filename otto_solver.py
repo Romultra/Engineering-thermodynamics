@@ -1,6 +1,6 @@
 import numpy as np
-from apdx_functions import get_apdx_7, get_apdx_1, get_apdx_4
-from solver_helper_functions import known, unknown, equalize, count_nans, display_tables
+from thermo import get_apdx_7, get_apdx_1, get_apdx_4
+from thermo.solver_helper_functions import known, unknown, equalize, count_nans, display_tables
 
 # Otto cycle solver
 def define_empty_variables():

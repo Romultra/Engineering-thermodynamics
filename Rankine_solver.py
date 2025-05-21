@@ -1,8 +1,8 @@
 import numpy as np
 from scipy.optimize import root_scalar
-from apdx_functions import *
+from thermo.apdx_functions import *
 from IPython.display import display
-from solver_helper_functions import *
+from thermo.solver_helper_functions import *
 
 # Rankine cycle solver
 def define_empty_variables():

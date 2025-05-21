@@ -1,5 +1,5 @@
 import numpy as np
-from apdx_functions import *
+from thermo.apdx_functions import *
 from IPython.display import display
 
 def known(var):
