@@ -255,7 +255,7 @@ def get_apdx_9ab(table_base, relative_to, input, request):
 
     data[relative_to] = pd.to_numeric(data[relative_to])  # Convert to numeric
     data[request] = pd.to_numeric(data[request])  # Convert to numeric
-
+    data[request][4] = np.nan  # Set the 5th value to NaN
     if type(input) == float or type(input) == int:
         input = np.array([input])
     
@@ -293,9 +293,29 @@ def get_apdx_9c(relative_to: tuple, input: tuple, request: str):
     data[relative_to[1]] = pd.to_numeric(data[relative_to[1]], errors='coerce')
     data[request] = pd.to_numeric(data[request], errors='coerce')
 
-    # Prepare points and values
-    points = np.column_stack((data[relative_to[0]], data[relative_to[1]]))
-
-    output_value = griddata(points, data[request], (input[0], input[1]), method='linear')
-
-    return np.float64(output_value) if np.ndim(output_value)==0 else output_value[0] if np.ndim(output_value)==1 else output_value
+    # Remove rows where any of the relevant columns contain NaN
+    clean_data = data.dropna(subset=[relative_to[0], relative_to[1], request])
+    
+    # Check if input pressure or temperature matches exactly with the data
+    # If so, use 1D interpolation for better accuracy
+    unique_values_0 = clean_data[relative_to[0]].unique()
+    unique_values_1 = clean_data[relative_to[1]].unique()
+    
+    # Check if either coordinate matches exactly with available data
+    if input[0] in unique_values_0:
+        # Filter data for the exact first coordinate and do 1D interpolation on second coordinate
+        filtered_data = clean_data[clean_data[relative_to[0]] == input[0]]
+        return np.interp(input[1], filtered_data[relative_to[1]], filtered_data[request])
+    
+    # Check if second coordinate matches exactly
+    elif input[1] in unique_values_1:
+        # Filter data for the exact second coordinate and do 1D interpolation on first coordinate
+        filtered_data = clean_data[clean_data[relative_to[1]] == input[1]]
+        return np.interp(input[0], filtered_data[relative_to[0]], filtered_data[request])
+    
+    # If no exact match, use 2D interpolation
+    else:
+        # Prepare points and values from cleaned data
+        points = np.column_stack((clean_data[relative_to[0]], clean_data[relative_to[1]]))
+        output_value = griddata(points, clean_data[request], (input[0], input[1]), method='linear')
+        return np.float64(output_value) if np.ndim(output_value)==0 else output_value[0] if np.ndim(output_value)==1 else output_value
