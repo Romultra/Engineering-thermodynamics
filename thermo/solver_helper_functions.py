@@ -106,8 +106,8 @@ def get_cycle_units(cycle):
         state_units = {
             'T': 'K',  # K
             'P': 'kPa',  # kPa
-            'V': 'm³/kg',  # m³/kg
-            'S': 'kJ/kg·K',  # kJ/kg·K
+            'v': 'm³/kg',  # m³/kg
+            's': 'kJ/kg·K',  # kJ/kg·K
             'h': 'kJ/kg',  # kJ/kg
             'u': 'kJ/kg'  # kJ/kg
         }
