@@ -185,10 +185,13 @@ def get_apdx_8c(relative_to: tuple, input: tuple, request: str):
     data[relative_to[1]] = pd.to_numeric(data[relative_to[1]], errors='coerce')
     data[request] = pd.to_numeric(data[request], errors='coerce')
 
-    # Prepare points and values
-    points = np.column_stack((data[relative_to[0]], data[relative_to[1]]))
-
-    output_value = griddata(points, data[request], (input[0], input[1]), method='linear')
+    # Remove rows where any of the relevant columns contain NaN
+    clean_data = data.dropna(subset=[relative_to[0], relative_to[1], request])
+    
+    # Prepare points and values from cleaned data
+    points = np.column_stack((clean_data[relative_to[0]], clean_data[relative_to[1]]))
+    print(clean_data[clean_data[relative_to[0]] == 10])  # Print rows where first column equals 10
+    output_value = griddata(points, clean_data[request], (input[0], input[1]), method='linear')
 
     return np.float64(output_value) if np.ndim(output_value)==0 else output_value[0] if np.ndim(output_value)==1 else output_value
 
