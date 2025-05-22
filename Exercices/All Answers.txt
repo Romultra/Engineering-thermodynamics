@@ -1,0 +1,426 @@
+2.4) The force can lift a 0.102 kg mass vertically.
+2.5) The weight of the object is 615 N.
+2.6) This human may lose consciousness under a force greater than 2943 N.
+2.7) The mass of water in the tank is 21200 kg, which has a weight of 208.0 kN.
+2.8) The frictional force opposing the motion of the box is 5 N .
+2.9) The final velocity of the mass after application of the force is 40 m/s.
+2.10) The spaceship has a weight of 1671.8 N on the moon.
+2.11) The gravitational acceleration on Mars is 3.89 m/s2.
+2.12) The final potential energy of the mass is a) 980665 J assuming constant g, and b) 980500 J assuming variable g.
+2.13) The weight reduction of the shuttle due to variable gravitational acceleration is 13.5%.
+2.14) The proportionality constant for this spring is 1.96 N/mm.
+2.15) The force exerted on the car driver by the seatbelt was 2777.8 N.
+2.16) The acceleration of the car is 3.47 m/s and the force applied to the car is 3819.4 N.
+2.17) The kinetic energy of the object is 2500 J.
+2.18) The mass would need to be moving at 44.3 m/s.
+2.19) The required runway length for takeoff is 100 m.
+2.20) The work done by the movement is 630 J.
+2.21) The vertical acceleration of the container is 2.50 m/s2.
+2.22) The acceleration in the direction of the ramp is 6.94 m/s2.
+2.23) The acceleration of each mass is 3.27 m/s2; mass m1 accelerates upwards while mass m2 accelerates downwards.
+2.24) There are 84.4 kg of water in the tank after 2 minutes.
+2.25) The weight of the air in the room is 1765.8 N.
+2.26) The weight of the gas is 196.2 N.
+2.27) The final density of the mixed air is 1.02 kg/m3.
+2.28) The weight of the combined liquid is 4798.6 N.
+2.29) The weight of the mixture of sand and water is 2574.1 N.
+2.30) The work required to lift the chain is 1.18 MJ.
+2.31) It required 49.1 J of work to lift the bottom end of the chain to the ceiling.
+2.32) It requires 56.6 MJ of work to lift all of the water to the top of the tank.
+2.33) The aircraft has a specific kinetic energy of 24.7 kJ/kg and a specific potential energy of 98.1 kJ/kg.
+2.37) The wall is in steady state, but not at equilibrium.
+2.38) The light bulb is in steady state since it is interacting with its surroundings, namely receiving electrical power and dissipating excess heat.
+3.1) The specific volume of the gas is 5.89 m3/kg.
+3.2) The mass of hydrogen is 20.2 kg and the mass of oxygen is 160.0 kg.
+3.3) The mass of consumed oxygen is 19.9 g, with 13.7 g of produced carbon dioxide and 11.2 g of produced water.
+3.4) There are 2.43 X 10^13 molecules in this ultra-high vacuum.
+3.5) The pressure in the vessel is 4.12 X 10-2 Pa.
+3.6) The absolute pressure is 120.9 kPa.
+3.7) The gas exerts a force of 3500 N onto each wall of the container.
+3.8) The compression of the spring is 0.275 m.
+3.9) The gauge pressure at the bottom of the drum is 8632.8 Pa.
+3.10) The gauge pressure of the contained gas is 147.2 Pa.
+3.11) The vessel a) has a vacuumed gauge pressure of 91.3 kPa, and b) the lid requires 678.0 N of force to lift.
+3.12) The bullet is accelerated at a rate of 1.27 m/s2.
+3.13) It requires 4.71 kN of force to open the valve.
+3.14) The specific gas constant for a) hydrogen gas is 4.12 kJ/kgK, and b) for carbon dioxide is 0.189kJ/kgK.
+3.15) An ideal gas at standard temperature and pressure has a volume of 22.4 L.
+3.16) The temperature of the helium gas is 341 K, or 68°C.
+3.17) Since the molar mass is 16.04 kg/kmol, the gas is methane. 
+3.18) The volume of the gas is 112.7 m3.
+3.19) The amount of mass lost from the leaking tank is 54.2 kg.
+3.20) The radius of the bubble at the surface is 0.728 mm.
+3.21) The specific volume of the superheated steam is 0.220 m3/kg.
+3.22) The mass of air in the room is 82.4 kg.
+3.23) The balloon can carry a payload of 14.6 kg.
+3.24) The density of nitrogen in the cylinder is 2.42 kg/m3, and the density of hydrogen is 0.174 kg/m3.
+3.25) The density of air is 1.21 kg/m3.
+3.26) Since the molar mass of the contained gas is 4.03 kg/kmol, the gas is helium.
+3.28) The final pressure in the jar is 63.7 kPa.
+3.29) The final pressure of the tire is 7% higher than the initial pressure.
+3.30) The initial diameter of the balloon is 1.05 m, and the final diameter is 1.57 m.
+3.31) The mass of air added to the tank is 2.24 kg.
+3.32) The mean of the numbers is -0.5 and the root mean square average is 4.92.
+3.33) The molecules have a a) mean velocity of 3 m/s, and b) root mean square velocity of 3.42 m/s.
+3.34) The root mean squared velocity for a) hydrogen is 1838.3 m/s, and b) oxygen is 461. 4 m/s.
+3.35) The initial root mean square velocity of the nitrogen molecule is 515.2 m/s, and it would require a temperature of 1193 K or 919°C to double this velocity.
+3.36) The kinetic energy of the atom is 8.28 x 10^-21 J.
+3.37) The root mean square velocity of helium at this temperature is 884.9 m/s.
+3.38) The change in internal energy of the helium is 747.8 kJ.
+3.39) The specific heat of the air is 0.720 kJ/kg.
+3.40) The final temperature of the gas is 17°C.
+4.1) The work done on the box is 2780 J.
+4.2) The force applied to stretch the spring is 10N, and the work required is 0.25 J.
+4.3) The engine is operating at 47.1% of its maximum power.
+4.4) The pulley transmits 15.7 kW of power.
+4.5) The work done by advancing the piston is 160 J.
+4.6) The car requires a power of 27.8 kW.
+4.7) The piston must do 981 J of work to displace all of the water out of the cylinder.
+4.8) The final temperature of the air is 450 K, and the final volume is 0.075 m3.
+4.9) The final volume of the gas is 0.4 m3.
+4.10) The work done during the process is 184.9 kJ.
+4.11) The system does 18.8 kJ of work on the surroundings.
+4.12) The value of n for this polytropic process is 1.58.
+4.13) The argon gas done 3.37 kJ of work on the surroundings.
+4.14) The final temperature of the argon gas is 337 K, and the system does 221.3 kJ/kg of work per unit mass on the surroundings.
+4.15) The system does 3.99 kJ of work on the surroundings during this process.
+4.16) The system does 107.6 kJ of work on the surroundings during the expansion.
+4.17) The surroundings do 114.8 kJ of work on the system during the process.
+4.19) The peak height of the ball is 6.10 m, and the velocity when it hits the ground is 10.9 m/s.
+4.20) The added energy would increase temperature by a) 2.4°C, b) height by 1019.4 m, or c) velocity by 141.4 m/s.
+4.21) The a) initial kinetic energy of the mass is 500 J, b) distance to stopping is 100 m, and c) work done by friction is 500 J.
+4.22) The required spring constant is 4000 N/m.
+4.23) The final velocity of the box is 4.44 m/s.
+4.24) The rate of heat loss from the transformer is 680 W.
+4.25) The energy stored in the battery after charging is 210.6 kJ.
+4.26) The water in the bucket will be fully heated after 3.43 hours.
+4.27) It will take 62.5 minutes to cool the bottle of water.
+4.28) It will take 22.8 minutes to heat the steel block.
+4.29) The final temperature of the mixture is 13°C.
+4.30) The final temperature of the mixture is 31.5°C.
+4.31) It will take 48.4 seconds for the temperature of the block to reach 100°C.
+4.32) The pressure in the box at the end of the process is 119.9 kPa.
+4.33) The final temperature of the mixture is 790 K, and the pressure in the box at the end of the process is 387.3 kPa.
+4.34) The final temperature of the mixture is 637 K, and the pressure in the box at the end of the process is 306.6 kPa.
+4.35) The pressure in the cylinder is 3.98 MPa.
+4.36) The surroundings do 145.8 kJ/kg of work on the system, and the 145.8 kJ/kg of heat are dissipated by the system to the surroundings.
+4.37) The work done on the carbon dioxide is 6.53 kJ.
+4.38) The final pressure of the room is 115.0 kPa.
+4.39) The room temperature increases by 20.3 K.
+4.40) The internal energy of the air increase by 4.0 kJ during this process.
+4.41) The specific internal energy of the gas decreases by 2.03 kJ/kg during the process.
+4.42) The heat added to lift the piston from the stops is 99.0 kJ.
+4.44) The heater was kept on for 101.7 minutes.
+4.45) The heat added during the process is 144.3 kJ.
+4.46) The work done during the process is 618.1 kJ, and the heat transfer is 2.86 kJ to the gas.
+4.47) The final temperature using a) constant specific heat is 339.97 K, and b) ideal gas tables is 339.93 K.
+4.48) The final temperature of the gas is 370 K, and the pressure is 115.6 kPa.
+4.49) The heat added during the process is 138.5 kJ.
+4.50) The air does 100 kJ of work on the surroundings, and the spring constant is 12 MN/m.
+4.51) The heat added during the process is 933.6 kJ.
+4.52) The work done during the compression is 14.6 kJ.
+4.53) Since the heat transfer is zero, the process is adiabatic.
+4.54) The final temperature of the air is 23°C.
+4.55) The carbon dioxide gas does 15 kJ of work on the surroundings during expansion, the final temperature is 1319 K, and the heat transfer during the entire process is 197.0 kJ.
+4.56) The velocity of water exiting the tap is 12.5 m/s, and it takes 50.9 seconds to fill the tank.
+4.57) The diameter of the pipe is 28.9 cm.
+4.58) It will take 6.37 minutes to change the volume of air in the room.
+4.59) The maximum observable temperature difference would be 0.63°C.
+4.60) The work done inside the heater is 80.9 kW.
+4.61) The maximum mass flow rate of air in the duct is 5.55 kg/s.
+4.62) The exit velocity of the air is 6.68 m/s.
+4.63) The velocity of air leaving the duct is 5 m/s, and the temperature is 29.5°C.
+4.64) The mass flow rate of the second stream is 0.082 kg/s.
+4.65) The power of the heater is 8.58 kW and the exit velocity of air is 28.3 m/s.
+4.66) The mass flow rate of water is 0.646 kg/s.
+4.67) The mass flow rate of air is 0.171 kg/s, and the exit nozzle area is 22.5 cm2.
+4.68) The outlet temperature of the nozzle is 311 K.
+4.69) The exit velocity is 385.2 m/s, and the exit temperature is 1034 K, or 760°C.
+4.70) The exit temperature is 28.8°C and the outlet area is 137.6 cm2.
+4.71) The outlet pressure of the air is 207.3 kPa.
+4.72) The temperature at the outlet is 294 K, and the velocity of air at the outlet is 39.9 m/s.
+4.73) The power required by the pump is 22.96 kW.
+4.74) The pump requires 9.71 kW of power to operate.
+4.75) The pressure increases by 704.1 kPa.
+4.76) The power required to drive the compressor is 140.0 kW.
+4.77) The exit temperature of air from the compressor is 502 K, or 229°C.
+4.78) The required mass flow rate of water is 1.02 kg/s.
+4.79) The maximum power output of the turbine is 14.7 MW.
+4.80) The final temperature of the argon gas is 369°C.
+4.81) The turbine supplies 644.6 kW of power to the surroundings.
+4.82) The rate of heat loss from the turbine is 9.83 kW.
+4.83) The final temperature is gamma x T1.
+4.84) The mass of air in the tank is 0.849 kg.
+4.85) There are 180 kJ of heat removed from the tank during this process.
+4.86) The heat loss during the process is 175.8 kJ.
+4.87) The final temperature of the nitrogen is 277 K, 4°C, and the final pressure is 731.9 kPa. 
+5.1) The increase in entropy of the atmosphere is 10.2 J/K.
+5.2) The increase in entropy of the surroundings is 0.303 MJ/K.
+5.3) The temperature of body B is 500 K.
+5.4) The entropy generated during this process was 20.1 MJ/K.
+5.5) The increase in entropy of the atmosphere is 7.23 kJ/K.
+5.6) The entropy increase of the air is 0.350 kJ/K.
+5.7) The entropy of the surrounding atmosphere increases by 0.314 kJ/K.
+5.8) The entropy change of a) air is -0.226 kJ/K, b) ice is 0.245 kJ/K, and c) the entropy generated during the process is 0.0190 kJ/K.
+5.10) The increase in entropy of the surroundings is 2.94 J/K.
+5.11) The increase in entropy of the surroundings is 0.004 J/K.
+5.12) The increase in entropy of the surroundings is 1.62 kJ/K.
+5.13) The final velocity of the mass is 3.96 m/s, and the entropy increase of the surroundings is 0.066 J/K.
+5.14) The entropy of the surrounding air increases by 0.0312 J/K.
+5.15) The entropy change of the air a) inside the house is 0, and b) outside the house entropy increases by 5.47 kJ/K.
+5.16) The rate of entropy change of a) the water is 0, and b) the surrounding air is 3.35 W/K.
+5.17) The rate of entropy increase of the surrounding air is 0.689 W/K.
+5.18) The rate of entropy increase of the pipe without the bend is 0.0171 W/K, and the pipe with the bend is 0.0341 W/K.
+5.19) The entropy increase of the surroundings is 0.172 kJ/kgK of working air in the turbine.
+5.20) The entropy change at the a) interior of the house is -1.01 kJ/K, b) exterior of the house is 1.10 kJ/K, c) generated within the wall is 0.0853 kJ/K, and d) past the mid-plane of the wall is 1.05 kJ/K.
+5.21) The system is a) internally reversible with an entropy change of 0.398 kJ/K, and b) internally irreversible with an unknown entropy change.
+5.22) This system has a total of 5 microstates.
+5.23) If particles are distinguishable, there are 10 microstates are possible.
+5.24) There is a probability of a) 0.25 of finding 2 particles on the left side, and b) 7.89 x 10^-31 of finding 100 particles on the left side.
+5.25) The system has 16 microstates, 5 macrostates, and an equilibrium entropy of 1.79.
+5.27) The system has 52! microstates, with a probability of 26! / 52! of having no red cards in the upper half of the deck, and an expected number of 13 red cards in the upper half of the deck.
+5.29) The entropy of the gas is 1.49 x 10^-21 J/K.
+5.31) The ratio of microstates between the two temperatures is exp(9.31 x 10^26).
+5.32) The entropy change of the a) helium is -1.06 kJ/K, b) air is 1.52 kJ/K, and c) the entropy generated is 0.459 kJ/K.
+5.33) The entropy generated by the argon gas is 5.76 kJ/K.
+5.34) The ratio of microstates is 36.022Â´10 and the entropy of the helium increases by 9.13 kJ/K.
+5.35) The final temperature of the gas is 620 K.
+5.36) The entropy of the gas increases by 44.9 J/K during the heating process.
+5.37) The increase in entropy of the argon gas during heating is 68.3 J/K.
+5.38) The entropy of the helium gas decreases by -2.65 kJ/K.
+5.39) The identity was proven.
+5.40) The identity was proven. 
+6.1) The motor produces entropy at a rate of 1.78 W/K.
+6.2) The cable absorbs entropy from the surroundings at a rate of 0.149 W/K.
+6.3) The entropy generated in the tank is 24.2 kJ/K.
+6.4) The rate of entropy a) production in the blender is 1.09 W/K, and b) increase in the surrounding air is 1.11 W/K.
+6.5) The entropy generated during this process is 2.43 J/K.
+6.6) The entropy generated during this process is 0.00675 kJ/K.
+6.7) The entropy generated during the mixing of the water is 0.236 kJ/K.
+6.8) The entropy change of the steel is -0.196 kJ/K, water is -0.820 kJ/K, and surroundings is 1.12 kJ/K.
+6.9) The entropy generated during the cooling of the steel ingot is 0.490 kJ/K.
+6.10) The entropy generated during the heating of the water is 46.3 kJ/K.
+6.11) The entropy generated while melting the ice cube in the lake is 93.4 J/K.
+6.12) Thus, the process cannot be adiabatic.
+6.14) The final volume of the ideal gas after compression is 0.335 m3.
+6.15) The entropy change during the process is 0.398 kJ/K.
+6.16) The heat added during the process is 426 kJ/kg, and the specific entropy change is 0.914 kJ/kgK.
+6.17) The ratio of final to initial volumes of gas is 0.295.
+6.18) The heat transfer is 362.8 kJ, and the work done is -362.8 kJ.
+6.19) The entropy change of the oxygen is 0.0546 kJ/K.
+6.20) The specific entropy generated when heating with the paddle wheel is 0.162 kJ/kgK, while that generated when heating with a thermal reservoir is 0.0169 kJ/kgK.
+6.21) The heat transfer during this process is -26.9 kJ, and the entropy change is 3.63 J/K.
+6.22) The total entropy generated during this process is 0.0517 kJ/K.
+6.23) The entropy generated during this process is 0.0194 kJ/K.
+6.24) The change in entropy during the process is non-zero, and since entropy cannot be destroyed the process is not reversible.
+6.25) The entropy change during the heating process is 851.1 kJ/K.
+6.26) The change in internal energy per unit mass is 52.1 kJ/kg, specific enthalpy is 72.8 kJ/kg, and specific entropy is 0.275 kJ/kgK.
+6.27) The change in internal energy of the gas is 311.7 kJ.
+6.28) The final temperature of the air is 561 K, or 288°C.
+6.29) The final temperature of the oxygen gas is 399 K, or 126°C.
+6.30) The temperature of state 2 is 387 K, and the total work done is 7.99 kJ/kg.
+6.31) The final temperature of the methane is 410 K, and the work done is 194.3 kJ/kg.
+6.32) The change in specific entropy during the process is 2.08 kJ/kgK.
+6.33) The work done during the process is 54.6 kJ, the heat transfer is -18.0 kJ, and the entropy change is -0.0543 kJ/K.
+6.34) The entropy change of the hydrogen gas is 5.72 kJ/K.
+6.35) The change in specific entropy during this expansion is -0.0813 kJ/kgK.
+6.36) The entropy change during this constant volume heating is 0.521 kJ/kgK.
+6.37) The entropy generated during the cooling of air in the water bath is 0.333 kJ/kgK.
+6.38) The entropy generated during this process is 0.0554 kJ/kgK.
+6.39) The final temperature of the hydrogen is 171 K, and mass of escaped gas is 1.77 kg. Control Volume Analysis
+6.40) The rate of entropy generated within the duct is 0.215 kW/K.
+6.41) The outlet air temperature is 427 K, and the rate of entropy generation is 0.314 kW/K.
+6.42) The rate of entropy generation within the pipe is 0.0749 kW/K.
+6.43) The pipe loses heat at a rate of 52 kW, and the entropy generated in the pipe is 0.0937 kW/K.
+6.44) The minimum outlet temperature is 367 K with an entropy rate change of 0, while the maximum outlet temperature is 600 K with a rate of entropy change of 0.631 kW/K.
+6.45) The work done is -325.91 kJ/kg of working air, with an exit pressure of 216.2 kPa.
+6.46) The work output of the gas turbine is 406.1 kJ/kg.
+6.47) The actual outlet temperature of the turbine is 557 K, while the outlet temperature if the turbine was isentropic would be 455 K.
+6.48) The process is possible, and the work output would be 325.9 kJ/kg.
+6.49) The work output of the turbine is 336.20 kJ/kg, and 0.135 kJ/kgK of entropy is generated.
+6.50) The isentropic efficiency of the turbine is 95 %, and the outlet temperature is 561 K.
+6.51) The compressor outlet temperature is 435 K and has a work requirement of 142.9 kJ/kg.
+6.52) The minimum work required by the compressor is 257.9 kJ/kg, so the claim is not valid.
+6.53) The minimum power requirement is 472.8 kW, and the outlet air temperature is 533 K, or 260°C.
+6.54) The entropy generated in this compression is 0.195 kJ/kgK.
+6.55) The power required to drive the compressor is 33.7 kW, and the heat removed by the heat exchanger is 29.7 kW.
+6.56) The exit velocity of argon from the nozzle is 340.7 m/s.
+6.57) The efficiency of the nozzle is 86.6%.
+6.58) The area of the pipe required at the outlet is 5.46 cm2.
+6.59) The velocity of water at the outlet of the nozzle is 19.0 m/s.
+6.60) The outlet temperature is 256 K, or -15°C, and the outlet pressure is 99.4 kPa.
+6.61) The outlet velocity of the diffuser is 13.8 m/s.
+6.62) The flow rate of water through the pimp is 11.1 kg/s.
+6.63) The pump has a power requirement of 53.0 kW.
+6.64) The exit water pressure from the pump is 2.12 MPa.
+6.65) The power requirement of the pump is 73.9 kW. Exergy Analysis
+6.66) The specific exergy of the helium gas in this state is 313.9 kJ/kg.
+6.67) The exergy destroyed during the mixing process is 664.0 kJ.
+6.68) The specific exergy of the exhaust gas is 88.6 kJ.
+6.69) The exergy destroyed during the heating of the air is 50.4 kJ.
+6.70) The change in specific exergy during the compression of the nitrogen is 109.2 kJ/kg.
+6.71) The specific flow exergy destroyed during the expansion is 43.0 kJ/kg.
+6.72) The rate at which flow exergy is destroyed during the compression is 3.03 kW.
+6.73) The exergy destroyed during this process is 89.9 kJ/kg.
+6.74) The turbine does 316.5 kW of work onto the surroundings, and exergy is destroyed at a rate of 66.8 kW.
+6.75) The rate at which exergy is destroyed in the heat exchanger is 1400.4 kW. Bernoulliâ€™s Equation
+6.76) The gauge pressure on the front of the car is 463.0 Pa.
+6.77) The air velocity necessary to lift this roof is estimated to be 28.6 m/s, or 103 km/h.
+6.78) The outlet water velocity is 40.8 m/s and has a pressure of 182.5 kPa.
+6.79) The outlet gauge pressure from the pump, assuming water is initially at atmospheric pressure, is 361.1 kPa.
+7.1) The estimated saturation pressure of 1704.3 kPa was close to the value of 1723.0 kPa from Appendix 8a.
+7.2) The estimated values for specific enthalpy change at vaporization of 2262.7 kJ/kg and specific entropy change at vaporization of 6.06 kJ/kgK and quite close to the actual values of 2257.06 kJ/kg and 6.05 kJ/kgK, respectively, from Appendix 8a.
+7.3) The estimated saturation pressure of 332.8 kPa is close to the value of 337.65 kPa from Appendix 9a.
+7.4) The saturation pressure of water vapour at this temperature is 0.103 kPa.
+7.5) The melting point of ice at 10 MPa pressure is 272.4 K.
+7.6) The unsharpened skates decrease the melting temperature by 0.03°C, and an area of 0.273 cm2 would be required to decrease melting temperature by 2°C. 
+7.7) The pressure change across the walls of the bottle is 98.2 kPa and it collapses.
+7.8) The water takes a total time of 6.27 h to all evaporate from the pot.
+7.9) The water will boil at a temperature of 101.0°C under these conditions.
+7.10) The specific entropy of the mixture in this state is 4.41 kJ/kgK.
+7.11) The water is superheated steam and has an enthalpy of 3069.3 kJ/kg.
+7.12) The internal energy of the steam is 616.5 kJ and the entropy is 1.84 kJ/K.
+7.13) The volume of the vessel is 3.09 m3 and the enthalpy of the water is 16.4 MJ.
+7.14) The internal energy of the refrigerant is 901.8 kJ.
+7.15) The final pressure of the steam is 218.2 kPa.
+7.16) The initial quality of the mixture is 1.58%.
+7.17) The quality of the equilibrium mixture is 1.57%.
+7.18) The final state is a saturated mixture with specific volume of 18.3 m3/kg.
+7.19) The volume of the tank is 5.62 m3. 
+7.20) The total heat added during the process is 2208.0 kJ.
+7.21) The system does 281.8 kJ of work onto the surroundings while it is heated.
+7.22) The refrigerant does 49.7 kJ of work on the surroundings and absorbs 506.4 kJ of heat.
+7.23) The water absorbs 204.0 kJ of heat during the process.
+7.24) The water loses 2080.5 kJ of heat during the cooling process.
+7.25) The surroundings do 54.3 kJ of work onto the R-134a, and the final temperature is 33°C.
+7.26) The amount of heat added to the water during the process is 3463.9 kJ.
+7.27) The final temperature of the steam is 956°C and the total heat absorbed is 929.8 kJ.
+7.28) The final temperature of the water is 257°C and the heat transfer is 7203.1 kJ.
+7.29) The final temperature of the superheated steam is 513°C.
+7.30) The volume of tank A is 0.00429 m3, and the volume of tank B is 0.742 m3.
+7.31) The steam does 27.5 kJ of work on the surroundings and received 1474.1 kJ of heat.
+7.32) There is no work done during this process, and the refrigerant loses 5704.4 kJ of heat.
+7.33) The final temperature is 404°C and the expanding water does 37.5 kJ of work on the surroundings.
+7.34) The system does 5.12 kJ of work on the surroundings and 87.0 kJ of heat is transferred to it during expansion.
+7.35) The final state is a saturated mixture at 300 kPa with 78% quality.
+7.36) The initial pressure is 1.55 MPa, and the system does 288.5 kJ of work on the surroundings during its expansion.
+7.37) Since the entropy generated under the assumption of an adiabatic process is negative, the process is not possible.
+7.38) The surroundings do 513.6 kJ/kg of work onto the water which releases 1943.2 kJ/kg of heat.
+7.39) The entropy change of the refrigerant is 0.173 kJ/kg, and the final temperature is 100°C.
+7.40) The water gains 3732.6 kJ of heat during the process.
+7.41) The change in specific entropy of the steam is -4.95 kJ/kgK.
+7.42) The change in entropy of the water during the process is -2.50 kJ/K.
+7.43) The entropy change of the refrigerant is -2.70 kJ/K and the surroundings is 2.79 kJ/K, for a total generated entropy of 0.0901 kJ/K.
+7.44) The final temperature of the steam is 99.63°C and the steam does 207.3 kJ/kg of work onto the surroundings. Control Volume Analysis
+7.45) The mass flow rate of steam through the heat exchanger is 1.57 kg/s.
+7.46) The mass flow rate of water is 13.9 kg/s.
+7.47) The compressor required 20.9 kW of power.
+7.48) The mass flow rate of cooling air required is 2.40 x 10^5 kg/h.
+7.49) The initial velocity of the refrigerant is 10.1 m/s, the final velocity is 15.5 m/s, and the heat transfer rate is 2.13 kW.
+7.50) The quality of the steam in the pipe is 95.9%.
+7.51) The final temperature of the steam exiting the turbine is 467°C.
+7.52) The steam in the diffuser receives heat at a rate of 83.5 kW.
+7.53) The turbine casing loses heat to the surroundings at a rate of -790.1 kW.
+7.54) The turbine does 10.5 MW of work on the surroundings.
+7.55) The power requirement of the pump is 362.5 W.
+7.56) The compressor requires 30.4 kJ/kg of working refrigerant.
+7.57) The rate of entropy change in the mixing chamber is 38.7 kW/K.
+7.58) The outlet velocity of the steam is 450.9 m/s.
+7.59) The outlet enthalpy of the saturated water mixture is 2536.3 kJ/kg.
+7.60) The velocity of the saturated liquid-vapour water mixture at the outlet is 841.5 m/s.
+7.61) The maximum work output of the turbine is 832.8 kJ/kg.
+7.62) The work output of the turbine is 527.9 kJ/kg of working steam.
+7.63) The mass flow rate of water through the turbine is 1.04 kg/s.
+7.64) The mass flow rate of steam is 3.98 kg/s, and the isentropic efficiency of the turbine is 90.3%.
+7.65) The work done by the turbine is 845.2 kJ/kg of working steam.
+7.66) The quality of the final state is 98.5%. Exergy Analysis
+7.67) The specific exergy of the water is 564.9 kJ/kg.
+7.68) The exergy of the refrigerant increases by 2.97 kJ/kg.
+7.69) The exergy of the steam decreases by 62.5 kJ/kg during the cooling process.
+7.70) The rate of destruction of exergy in this process is 332.1 kW.
+7.71) The turbine does 776.6 kJ/kg of steam, and the exergy destroyed per unit mass of steam is 125.0 kJ/kg.
+7.72) The power requirement of the compressor is 8.21 kW, and the rate of exergy destruction is 6.62 kW.
+7.73) The mass flow rate of superheated steam into the mixing chamber is 12.6 kg/s, and the rate of destruction of exergy is 786.4 kW. Compressibility Charts
+7.74) There are 404.3 kg of nitrogen in the cylinder.
+7.75) The specific volume of the steam using the a) ideal gas equation is 0.0201 m3/kg, b) compressibility charts is 0.0177 m3/kg, and c) superheated steam tables is 0.0182 m3/kg.
+7.76) The compressibility factor using the charts is 0.70, while that using the superheated steam tables is 0.73.
+7.77) The error if using the ideal gas equation to find the specific volume for hydrogen in this state would be very large, 81.8%.
+7.79) The density of the carbon dioxide using the ideal gas equation is 113.5 kg/m3, very far from the more accurate value of 206.4 kg/m3 from the compressibility charts.
+7.80) The pressures and volumes of states 1, 2, 3, and 4, in order, are 313.6 kPa and 0.05 m3, 451.6 kPa and 0.0385 m3, 338.8 kPa and 0.0514 m3, and 235.3 kPa and 0.0666 m3. 
+9.1) The turbine does 941.2 kJ/kg of work on the surroundings.
+9.2) The boiler is required to be at a pressure of 2.27 MPa to achieve the desired quality.
+9.3) The quality of steam exiting the turbine is 74.5%.
+9.4) The temperature of steam exiting the boiler is required to be at least 542°C.
+9.5) The maximum efficiency of the a) Carnot cycle is 53.0%, and b) of the ideal Rankine cycle is 41.5%. Rankine Cycle with Superheat
+9.6) The condenser pressure is 0.392 MPa and the turbine has a power output of 17.8 MW.
+9.7) The back work ratio for the cycle is 0.00606, with thermal efficiency of 36.9% and an error of 0.38% if neglecting the work required by the pump.
+9.8) The temperature at the condenser exit is 55°C and the cycle outputs 0.847 kW of power.
+9.9) The boiler pressure is 5.57 MPa and the thermal efficiency is 36.9%.
+9.10) The isentropic efficiency of the turbine is 93.6%.
+9.11) The efficiency of the Rankine cycle is 35.6%, and of the Carnot cycle is 58.2%.
+9.12) The mass flow rate of steam required is 10.8 kg/s.
+9.13) The mass flow rate of cooling water required to cool the condenser is 3986 kg/s.
+9.14) The condenser now requires 5119 kg/s of cooling water.
+9.15) The power plant must burn natural gas at a rate of 16.8 x 10^3 m3/h. Rankine Cycle with Reheat
+9.16) The reheat temperature is 555°C allows the turbine to produce 1544.6 kJ/kg of work.
+9.17) The thermal efficiency of this Rankine cycle is 37.0%.
+9.18) The work done by the turbines after decreasing the reheat pressure rose slightly to 1420.9 kJ/kg, but the thermal efficiency decreased slightly to 36.5%.
+9.19) The turbines provide 1272.7 kJ/kg of work with an exhaust temperature of 92°C. Rankine Cycle with Regeration
+9.20) The required mass flow rate of steam from the high-pressure turbine stage is 2.3 kg/s.
+9.21) The mass fraction of steam extracted for the open feedwater heater is 20.3%.
+9.22) The total work requirement of both pumps is 8.69 kJ/kg of working fluid.
+9.23) The amount of heat extracted from the condenser is 1505.9 kJ/kg of working steam.
+9.24) The power plant required 1.46 x 10^5 kg of coal each day.
+9.25) The high-pressure turbine does 52.0% of the total work output of the cycle.
+9.26) The mass flow rate of extracted steam required is 1.76 kg/s.
+9.27) The mass fraction of extracted steam from the turbine intermediate state is 21.1%.
+9.28) The mass flow rate of extracted steam required is 3.45 kg/s.
+9.29) The turbine has a power output is 21.2 MW and the cycle efficiency is 38.2%.
+9.30) The power plant requires 1.74 x 10^5 kg of coal each day and a lake water mass flow rate of 2026.0 kg/s. Vapour Refrigeration Cycle
+9.31) The condenser pressure is 0.783 MPa, the coefficient of performance of the ideal Rankine refrigerator is 7.42 and the related Carnot refrigerator coefficient of performance is 7.92.
+9.32) The coefficient of performance of the non-ideal Rankine refrigerator is 6.31.
+9.33) The compressor used 2.99 kW of power and the cycle removes heat at a rate of 18.1 kW.
+9.34) The compressor requires 3.45 kW of power.
+9.35) The coefficient of performance of the refrigerator is 5.31.
+9.36) The refrigerator can cool air at a maximum mass flow rate of 0.202 kg/s.
+9.37) The power input to the compressor can then be found:   To cool the refrigerator would require a minimum mass flow rate of refrigerant of 0.0291 kg/s and require 0.993 kW of power for the compressor.
+9.38) The resistance heater requires 34.2 kJ of work, while the heat pump running on an ideal Rankine cycle required only 4.06 kJ of work to cool 1 kg of air.
+9.39) The coefficient of performance for the heat pump is 9.06 and the compressor required 1.10 kW of power.
+9.40) The coefficient of performance of the heat pump is 3.72, and the isentropic efficiency of the compressor is 80.5%.
+10.1) The maximum air temperature in the cycle is 1960 K.
+10.2) The maximum air temperature in the cycle is 1711 K.
+10.3) The engine has a thermal efficiency of 57.2% and takes in 8.77 x 10^-4 kg of air.
+10.4) The heat added to the engine is 925.5 kJ/kg of working air.
+10.5) The thermal efficiencies of the Otto cycle are a) 56.5% for constant specific heats of cold air, b) 52.8% for variable specific heats, and 78.6% for a Carnot cycle.
+10.6) The cycle has a maximum temperature of 1474 K, work output of 291.2 kJ/kg of working air and a thermal efficiency of 59.3%.
+10.7) The cycle has a maximum temperature of 1608 K and pressure of 4315.1 kPa, and receives 0.232 kJ of heat.
+10.8) The mass of fuel added during each cycle is 0.0203 g.
+10.9) The power output of the cycle is 8.19 kW.
+10.10) The engine has a total power output of 25.4 kW. Diesel Cycle
+10.11) The cycle has a compression ratio of 20.5 and a cutoff ratio of 2.19.
+10.12) The maximum air temperature is 1849 K and pressure is 5147.8 kPa.
+10.13) The cutoff ratio of the cycle is 2.24.
+10.14) The cycle has a compression ratio of 24.7, cutoff ratio of 1.76, and an efficiency of 68.6% when using the cold air standard assumption.
+10.15) The cycle has a compression ratio of 26.2, cutoff ratio of 1.86, and an efficiency of 63.4% when using the air standard assumption.
+10.16) The maximum air temperature is 953 K and pressure is 5719.8 kPa, and the cycle receives 958.1 kJ of heat to do 605.0 kJ of work per kilogram of working air.
+10.17) The cycle accepts 11.1 kJ of heat, rejects 4.48 kJ of heat and has an efficiency of 59.6%.
+10.18) The engine has a total power output of 90.9 kW.
+10.19) The peak pressure has increased, but the peak temperature and the work output of the engine have both decreased. To increase work output we must increase the amount of fuel injected into the engine, which we can do since there is excess air.
+10.20) The cycle does 652.2 kJ/kg of work and has an efficiency of 59.3%. Brayton Cycle
+10.21) The cycle has a back work ratio of 0.441 and an efficiency of 48.2%.
+10.22) The cycle has a back work ratio of 0.422 and an efficiency of 45.6% without the assumption of constant specific heats.
+10.23) The cycle has a power output of 1268.4 kW and an efficiency of 43.1%.
+10.24) The cycle has an efficiency of 31.8% when the turbine is not isentropic.
+10.25) The maximum pressure ratio possible during this cycle is 12.3.
+10.27) The engine has a heat input of 4208.4 kW and produces 1987.9 kW of power with an efficiency of 47.2%.
+10.28) The cycle has an air mass flow rate of 0.252 kg/s and a work output of 96.6 kW.
+10.29) The compressor has an isentropic efficiency of 94.3%.
+10.30) The isentropic efficiency of the compressor is 80.1% and turbine is 86.0%, and the thermal efficiency of the cycle is 29.3%. Brayton Cycle with Regeneration, Reheat and Intercooling
+10.31) The cycle with regeneration has an efficiency of 55.0%.
+10.32) The cycle to produces 2334.8 kW of power with an efficiency of 61.6%.
+10.33) The cycle now has a work output of 1525.2 kW with an efficiency of 47.0%.
+10.34) The heat input is a) 667.1 kJ/kg for the ideal Brayton cycle without regeneration, b) 644.8 kJ/kg for the ideal Brayton cycle with regeneration, and c) 568.1 kJ/kg for the Brayton cycle with regeneration and a non-ideal turbine.
+10.36) The turbines output 925.3 kJ/kg of work and the reheat combustor takes 462.6 kJ/kg of heat.
+10.37) The work output from the single turbine is 484.5 kJ/kg and the dual turbines is 563.3 kJ/kg.
+10.38) The cycle does 375.2 kJ/kg of work with a thermal efficiency of 54.4%.
+10.39) The cycle has a work output of 239.1 kJ/kg and efficiency of 40.0% given a non- ideal compressor and non-ideal turbines.
