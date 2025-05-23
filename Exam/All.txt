@@ -1,0 +1,206 @@
+Quiz
+Question 1 (3 points) 
+ Saved
+A Carnot refrigeration cycle has a COP of 6 and a condenser temperature of 38 C. What is the evaporator pressure? The refrigerant is R134a. [3 point]
+
+Question 1 options:
+
+808 kPa
+
+
+230 kPa
+
+
+700 kPa
+
+
+250 kPa
+
+Question 2 (3 points) 
+ Saved
+A heat pump takes 1500 W from the environment and operates with a COP of 3. What is the heating power of the cycle? [3 point]
+
+Question 2 options:
+
+2250 W
+
+
+2000 W
+
+
+1500 W
+
+
+1250 W
+
+Question 3 (3 points) 
+ Saved
+Water vapor is initially at T = 500 K and P = 1.8 MPa. It then undergoes an isentropic process, until it becomes saturated vapor. What is the variation of specific enthalpy during the process?
+
+Question 3 options:
+
+-0.810 kJ/kg
+
+
+-9.891 kJ/kg
+
+
+-0.369 kJ/kg
+
+
+-1.317 kJ/kg
+
+Question 4 (2 points) 
+ Saved
+We assume that a substance has a temperature-dependent specific heat capacity given by:
+cv(T) = a*T^2 + b*T + c
+with:
+a = +0.01 J/(kg K^3)
+b= -4.5 J/(kg K^2)
+c = +6000 J/(kg K).
+What is the variation of specific internal energy if the substance is brought from T1 = 200 K to T2 = 280 K?
+
+Question 4 options:
+
+802.0 kJ/kg
+
+
+635.6 kJ/kg
+
+
+440.1 kJ/kg
+
+
+87.0 kJ/kg
+
+Question 5 (2 points) 
+ Saved
+Water in a cylindrical container of radius r = 10 cm is able to exchange heat through the base (i.e. a circular surface) with a thermal reservoir that is 20 K warmer than the water. The thickness of the base is L = 1 cm. What is the thermal conductivity of the container, if the heat transfer rate is \dot{Q} = 77.3 W?
+
+Question 5 options:
+
+25.90 W/(m K)
+
+
+7.82 W/(m K)
+
+
+1.23 W/(m K)
+
+
+0.80 W/(m K)
+
+Question 6 (3 points) 
+A silver sphere of radius r = 5 cm, emissivity ε = 0.8 is hanging from the roof of a room. The temperature of the environment is 30° C, while the sphere is initially 20° C warmer. We assume that the only mechanism of heat exchange between the sphere and the environment is radiation. If we approximate the rate of heat transfer as being constant (and equal to the initial value), how much time will it take for the sphere to cool by 1° C?
+
+Question 6 options:
+
+54.4 s
+
+
+616.4 s
+
+
+367.6 s
+
+
+939.6 s
+
+Question 7 (2 points) 
+Air enters a thermally insulated turbine with a temperature of 1000 K and a pressure of 950 kPa. It leaves the turbine with a temperature of 620 K and a pressure of 130 kPa. Use equation (6.43) from the textbook to calculate the entropy change of 1 kg of air during this process. Since the specific heat is not constant, you will also need to use the ideal gas tables for air (Appendix 7 from the textbook) or alternatively EES. [2 point]
+
+Question 7 options:
+
+0.1280 kJ/K
+
+
+0.0178 kJ/K
+
+
+0.0467 kJ/K
+
+Question 8 (1 point) 
+We have only analyzed Otto cycles with isentropic compression and expansion of air. If we consider an Otto cycle with an isentropic efficiency of 0.85 for both the compression and expansion process, how will the work required to compress the gas (during the compression stroke) and the work extracted during the expansion (power stroke) differ compared to isentropic processes? [1 point]
+
+Question 8 options:
+
+Non-isentropic will require more work for compression and will recover less work from expansion
+
+
+Non-isentropic will require less work for compression and will recover more work from expansion
+
+
+Non-isentropic will require more work for compression and will recover more work from expansion
+
+
+Non-isentropic will require less work for compression and will recover less work from expansion
+
+Question 9 (1 point) 
+What’s the variation of the enthalpy of 0.4 kg of air when the internal energy is brought from U1 = 161.768 kJ to U2 = 201.78 kJ?
+
+Question 9 options:
+
+18.17 kJ
+
+
+83.83 kJ
+
+
+54.94 kJ
+
+
+5.53 kJ
+
+Question 10 (2 points) 
+An ideal gas with molar mass M = 48 g/mol has initial temperature T1=400 K and initial pressure P1 = 100 kPa. It then undergoes an adiabatic process until it reaches the pressure P2 = 200 kPa. What is the specific volume of the gas at the end of the process?
+Assume heat capacity ratio gamma = 8/6.
+
+Question 10 options:
+
+0.412 m^3/kg
+
+
+6.941 m^3/kg
+
+
+0.172 m^3/kg
+
+
+1.813 m^3/kg
+
+Question 11 (2 points) 
+An amount of air is contained in a cylinder where it undergoes an expansion process from P1 = 0.3 MPa and T1 = 126.85° C to 70% of the initial pressure. If during the process the air lost 30 kJ/kg of energy to the environment in the form of work, and 40 kJ/kg in the form of heat, how much was the variation of air’s specific entropy? Assume specific heat capacity: cv = 0.721 kJ/(kg K)
+
+Question 11 options:
+
+-177.87 J/(kg K)
+
+
+-29.99 J/(kg K)
+
+
+-804.44 J/(kg K)
+
+
+-986.10 J/(kg K)
+
+Question 12 (2 points) 
+A substance undergoes a cyclic process, represented on the P-v diagram by the path shown in the figure below. What is the net amount of work per unit mass exchanged during the process?
+
+If you have problems seeing the picture, contact the teacher.
+
+Question 12 options:
+
+17.0 J/kg
+
+
+8.5 J/kg
+
+
+13.0 J/kg
+
+
+21.2 J/kg
+
+
+5 of 12 questions saved
