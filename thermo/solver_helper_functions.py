@@ -85,10 +85,26 @@ def get_cycle_units(cycle):
         }
     elif cycle == "Diesel":
         system_units = {
-            # Define the system variable units for Diesel cycle here
+            'r': '-',
+            'rc': '-',
+            'R': 'kJ/(kg·K)',
+            'cv': 'kJ/(kg·K)',
+            'cp': 'kJ/(kg·K)',
+            'gamma': '-',
+            'Qh': 'kJ/kg',
+            'Qc': 'kJ/kg',
+            'Wi': 'kJ/kg',
+            'Wo': 'kJ/kg',
+            'W': 'kJ/kg',
+            'n': '-',
         }
         state_units = {
-            # Define the state variable units for Diesel cycle here
+            'T': 'K',  # K
+            'P': 'kPa',  # kPa
+            'v': 'm³/kg',  # m³/kg
+            's': 'kJ/kg·K',  # kJ/kg·K
+            'h': 'kJ/kg',  # kJ/kg
+            'u': 'kJ/kg'  # kJ/kg
         }
     elif cycle == "Otto":
         system_units = {
